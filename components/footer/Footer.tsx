@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
             <Title>Follow</Title>
             {links.map(({ name, ref }) => {
               return (
-                <p>
+                <p key={name}>
                   <a href={`https://${ref}`}>{name}</a>
                 </p>
               )
