@@ -24,7 +24,7 @@ const HeroText = styled.div`
   }
 `
 
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
     <>
       <Image
