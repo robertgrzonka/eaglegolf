@@ -13,7 +13,7 @@ const Wrapper = styled.div`
   background-color: rgb(33, 37, 41);
 `
 
-const Footer = () => {
+const Footer: React.FC = () => {
   const year = new Date().getFullYear()
 
   return (

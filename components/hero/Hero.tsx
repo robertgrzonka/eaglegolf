@@ -13,7 +13,7 @@ const HeroText = styled.div`
     color: white;
     margin-bottom: 0;
     font-weight: 800;
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
   h4 {
     font-weight: 200;
@@ -24,7 +24,7 @@ const HeroText = styled.div`
   }
 `
 
-const Hero = () => {
+const Hero: React.FC = () => {
   return (
     <>
       <Image
